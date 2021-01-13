@@ -1,0 +1,20 @@
+{
+  "name": "mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "mongoose"
+  ],
+  "author": "Arkaraj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^8.2.1",
+    "mongoose": "^5.11.11"
+  }
+}
