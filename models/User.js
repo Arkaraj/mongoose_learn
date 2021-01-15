@@ -13,7 +13,12 @@ const Schema = new mongoose.Schema({
     },
     email: {
         type: String,
-        required: true
+        required: true,
+        unique: true
+    },
+    skill: {
+        type: String,
+        enum: ['cp', 'web_dev', 'data_scientist', 'mobile_dev', 'iot', 'ml', 'ai', 'blockchain', 'robotics', 'vr', 'ar', 'game_dev']
     }
 });
 
